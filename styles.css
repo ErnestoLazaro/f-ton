@@ -1,0 +1,34 @@
+/*
+1. posicionamiento
+2. Modelo de caja (Box Model)
+3. Tipografía 
+4. Visuales
+5. Otros
+*/
+:root {
+  /* Colores */ 
+  --F-Color1: #88ABE5;
+  --F-Color2: #A0BCEA;
+  --F-Color3: #C3D5F2;
+  --F-Color4: #001D4E;
+  --F-Color5: #F3F8FF;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  font-family: 'Reem Kufi', sans-serif;
+}
+header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  min-width: 320px;
+  height: 334px;
+  text-align: center;
+}
