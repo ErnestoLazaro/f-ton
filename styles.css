@@ -32,3 +32,18 @@ header {
   height: 334px;
   text-align: center;
 }
+header img {
+  width: 150px;
+  height: 94px;
+  margin-top: 20px;
+  align-self: center;
+}
+.header--title-container {
+  width: 90%;
+  min-width: 288px;
+  max-width: 900px;
+  height: 218px;
+  margin-top: 20px;
+  text-align: center;
+  align-self: center;
+}
