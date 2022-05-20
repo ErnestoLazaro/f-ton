@@ -31,6 +31,7 @@ header {
   min-width: 320px;
   height: 334px;
   text-align: center;
+  background: linear-gradient(207.8deg, #88ABE5 16.69%, #F3F8FF 100%);
 }
 header img {
   width: 150px;
@@ -46,4 +47,44 @@ header img {
   margin-top: 20px;
   text-align: center;
   align-self: center;
+}
+.header--title-container h1 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--F-Color4)
+}
+.header--title-container p {
+  margin-top: 25px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: var(--F-Color4);
+}
+.header--title-container .header--button {
+  position: absolute;
+  left: calc(50% - 118px);
+  top: 270px;
+  display: block;
+  margin-top: 35px;
+  padding: 5px;
+  width: 230px;
+  height: 48px;
+  background-color: var(--F-Color2);
+  /* Sombra */
+  box-shadow: 0px 4px 8px rgba(89, 73, 0.6);
+  border: none;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--F-Color4);
+}
+.header--button span {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin-left: 5px;
+  background-image: url('./assets/icons/eos-icons_abstract.svg');
+  background-repeat: no-repeat;
 }
