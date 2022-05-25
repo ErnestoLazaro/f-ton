@@ -210,3 +210,19 @@ main {
   line-height: 1.5rem;
   color: var(--F-Color4);
 }
+.main-product-detail {
+  position: relative;
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  padding: 20px 10px;
+  background-color: var(--F-Color4);
+}
+.product-detail-fton-logo {
+  position: absolute;
+  width: 40px;
+  height: 25px;
+  top: -10px;
+  left: calc(50% - 20px);
+  background-image: url(./assets/imgs/Logofton1.svg);
+}
