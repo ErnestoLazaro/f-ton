@@ -220,9 +220,11 @@ main {
 }
 .product-detail-fton-logo {
   position: absolute;
-  width: 40px;
-  height: 25px;
-  top: -10px;
+  width: 50px;
+  height: 35px;
+  top: -30px;
   left: calc(50% - 20px);
   background-image: url(./assets/imgs/Logofton1.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
