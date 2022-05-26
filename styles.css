@@ -266,7 +266,7 @@ main {
   width: 20px;
   height: 20px;
   margin-bottom: 10px;
-  background-image: url(./assets/icons/eos-icons_atom-electron.svg);
+  background-image: url(./assets/icons/emojione-monotone_sun.svg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -289,8 +289,162 @@ main {
   height: 300px;
   margin: 0 auto;
   margin-bottom: 50px;
-  background-image: url('./assets/imgs/foto5.png');
+  border-radius: 10px;
+  background-image: url(./assets/imgs/foto6.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  box-shadow: 0 4px 8px rgb(0 0 0);
+}
+.product-detail--card2 {
+  width: 90%;
+  min-width: 288px;
+  max-width: 400px;
+  height: 188px;
+  margin: 15px auto;
+  padding: 15px;
+  background-color: var(--F-Color1);
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0.16);
+}
+.product-detail--card2 .clock2 {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 10px;
+  background-image: url(./assets/icons/emojione-monotone_sun.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.backgroundImg3 {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  background-image: url(./assets/imgs/foto5.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 4px 8px rgb(0 0 0);
+}
+.main-product-detail2 {
+  position: relative;
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  padding: 20px 10px;
+  background-color: var(--F-Color5);
+}
+.product-detail-fton-logo2 {
+  position: absolute;
+  width: 50px;
+  height: 35px;
+  top: 20px;
+  left: calc(50% - 20px);
+  background-image: url(./assets/imgs/Logofton1.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.product-detail--title2 {
+  width: 90%;
+  min-width: 288px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+}
+.product-detail--title2 h2 {
+  margin-bottom: 20px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--F-Color4);
+}
+.product-detail--title2 p {
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: var(--F-Color4);
+}
+.product-detail--card3 {
+  width: 90%;
+  min-width: 288px;
+  max-width: 400px;
+  height: 280px;
+  margin: 15px auto;
+  padding: 15px;
+  background-color: var(--F-Color1);
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0.16);
+}
+.product-detail--card3 .clock2 {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 10px;
+  background-image: url(./assets/icons/emojione-monotone_sun.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.product--card-title {
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  color: var(--F-Color4);
+}
+.product--card-body {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: var(--F-Color5);
+}
+.backgroundImg4 {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  background-image: url(./assets/imgs/foto3.png);
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+  box-shadow: 0 4px 8px rgb(0 0 0);
+}
+.product-detail--card4 {
+  width: 90%;
+  min-width: 288px;
+  max-width: 400px;
+  height: 220px;
+  margin: 15px auto;
+  padding: 15px;
+  background-color: var(--F-Color1);
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0.16);
+}
+.product-detail--card4 .clock2 {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 10px;
+  background-image: url(./assets/icons/emojione-monotone_sun.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.backgroundImg5 {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  background-image: url(./assets/imgs/foto4.png);
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+  box-shadow: 0 4px 8px rgb(0 0 0);
 }
