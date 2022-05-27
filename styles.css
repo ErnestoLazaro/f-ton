@@ -72,7 +72,7 @@ header img {
   height: 48px;
   background-color: var(--F-Color2);
   /* Sombra */
-  box-shadow: 0px 4px 8px rgba(89, 73, 0.6);
+  box-shadow: 0 4px 8px rgba(0, 0, 0.16);
   border: none;
   border-radius: 5px;
   font-size: 1.4rem;
@@ -464,4 +464,93 @@ main {
   font-weight: bold;
   line-height: 2.6rem;
   color: var(--F-Color4);
+}
+.main-planes-container {
+  width: 100%;
+  min-width: 320px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+.planes-title {
+  width: 90%;
+  min-width: 288px;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.planes-title h2 {
+  padding-top: 50px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--F-Color4);
+}
+.planes-title p {
+  padding-top: 30px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: var(--F-Color1);
+}
+.planes-container-card {
+  position: relative;
+  width: 70%;
+  min-width: 230px;
+  max-width: 300px;
+  height: 250px;
+  margin: 50px auto 0;
+  padding: 0 15px;
+  background-color: var(--F-Color1);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0.16);
+}
+.recomendado {
+  position: absolute;
+  width: 120px;
+  height: 31px;
+  padding: 6px;
+  top: -15px;
+  left: calc(50% - 60px);
+  font-size: 1.2rem;
+  background-color: var(--F-Color4);
+  border-radius: 8px;
+  color: var(--F-Color5);
+}
+.planes-card-title {
+  padding-top: 30px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 5.3rem;
+  color: var(--F-Color4);
+}
+.planes-card-price {
+  padding: 5px 0;
+  font-size: 5.2rem; 
+  font-weight: bold;
+  line-height: 6.3rem;
+  color: var(--F-Color4);
+}
+.planes-card-saving {
+  font-size: 1.2rem;
+  color: var(--F-Color5);
+}
+.planes-card-ca {
+  width: 150px;
+  height: 48px;
+  margin-top: 20px;
+  background-color: var(--F-Color5);
+  border: 2px solid var(--F-Color4);
+  border-radius: 4px;
+  font-family: 'Reem Kufi', sans-serif;
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  color: var(--F-Color4);
+}
+.planes-card-ca span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url(/assets/icons/arrow-down.svg);
+  vertical-align: text-bottom;
 }
