@@ -284,6 +284,16 @@ main {
   line-height: 1.8rem;
   color: var(--F-Color5);
 }
+.paneles-img-container1 {
+  width: 100%;
+  min-width: 320px;
+  height: 50vh;
+  background-image: url(/assets/imgs/foto16.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
 .backgroundImg2 {
   width: 300px;
   height: 300px;
